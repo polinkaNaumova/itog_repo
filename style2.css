@@ -1,0 +1,164 @@
+body {
+    background-color: rgba(245, 245, 245, 0.844);
+  }
+  
+  .container {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .logo-img {
+    margin-top: 0px;
+    margin-left: -60px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .logo-text {
+    color: rgb(7, 142, 7);
+    font-size: 18px;
+    position: absolute;
+    top: 160px;
+    left: -11px;
+    font-weight: bold;
+  }
+  
+  .nav-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 86px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .nav-menu .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  .nav-menu .nav-menu__list-item {
+    margin-right: 75px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: gray;
+  }
+  
+  .benefit {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .benefit__title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .benefit__img {
+    width: 380px;
+    height: 240px;
+    margin: 30px 75px 30px 35px;
+    float: left;
+    border-radius: 10px;
+  }
+  
+  .benefit__block {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .benefit__text {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .hr {
+    border: 1px solid black;
+  }
+  
+  .footer-nav {
+    margin-left: 30%;
+      }
+  
+  .items {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .items__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .item__info {
+    display: flex;
+  }
+  
+  .item__title {
+    font-size: 30px;
+  }
+  
+  .item__img {
+    width: 25%;
+    margin-right: 30px;
+  }
+  
+  .item__text {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .hr-2 {
+    border: 1px solid black;
+    margin-top: 45px;
+  }
+  
+  .equioment {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .equioment__title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .equioment__block {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .equioment__img {
+    width: 40%;
+    margin-right: 30px;
+  }
+  
+  .equioment__img {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .equioment__text {
+    font-size: 18px;
+    font-weight: 250px;
+  }
+  
